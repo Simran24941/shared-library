@@ -4,12 +4,7 @@
 
 pipeline{
 
-      agent {
-                docker {
-                image 'maven'
-               
-                }
-            }
+      agent
         
         stages{
 
